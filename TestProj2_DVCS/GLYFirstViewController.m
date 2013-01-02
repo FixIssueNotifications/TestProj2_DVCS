@@ -7,6 +7,7 @@
 //
 
 #import "GLYFirstViewController.h"
+#import "../TestFakeDummyLib/TestFakeDummyLib/TestFakeDummyLib.h"
 
 @interface GLYFirstViewController ()
 
@@ -28,6 +29,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    TestFakeDummyLib *libInstance = [[TestFakeDummyLib alloc] init];
+    self.lblLateLoad.text = [libInstance getStringFromDependency];
 }
 
 - (void)didReceiveMemoryWarning
@@ -36,4 +39,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc {
+    [_lblLateLoad release];
+    [super dealloc];
+}
 @end

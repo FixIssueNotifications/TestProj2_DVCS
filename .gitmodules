@@ -1,0 +1,3 @@
+[submodule "TestFakeDummyLib"]
+	path = TestFakeDummyLib
+	url = https://GLYEthan@github.com/glyethan/TestFakeDummyLib.git

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface GLYFirstViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UILabel *lblLateLoad;
 
 @end
