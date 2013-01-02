@@ -1,3 +1,6 @@
 [submodule "TestFakeDummyLib"]
 	path = TestFakeDummyLib
 	url = https://GLYEthan@github.com/glyethan/TestFakeDummyLib.git
+[submodule "External Libs/githubOtherFakeTestLib"]
+	path = External Libs/githubOtherFakeTestLib
+	url = https://GLYEthan@github.com/glyethan/OtherFakeTestLibGit.git

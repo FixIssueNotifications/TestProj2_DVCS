@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA1FC5CC1694C9310037CD21 /* libTestFakeDummyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1FC5C61694C7F40037CD21 /* libTestFakeDummyLib.a */; };
+		AA1FC6351694F3E40037CD21 /* libOtherFakeTestLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1FC6301694F3B00037CD21 /* libOtherFakeTestLib.a */; };
 		AA5ACE10165AD82B004A704E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5ACE0F165AD82B004A704E /* UIKit.framework */; };
 		AA5ACE12165AD82B004A704E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5ACE11165AD82B004A704E /* Foundation.framework */; };
 		AA5ACE14165AD82B004A704E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5ACE13165AD82B004A704E /* CoreGraphics.framework */; };
@@ -56,6 +57,27 @@
 			remoteGlobalIDString = AA1FC5941694C7F40037CD21;
 			remoteInfo = TestFakeDummyLib;
 		};
+		AA1FC62F1694F3B00037CD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1FC6271694F3AF0037CD21 /* OtherFakeTestLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA1FC5F91694F07F0037CD21;
+			remoteInfo = OtherFakeTestLib;
+		};
+		AA1FC6311694F3B00037CD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1FC6271694F3AF0037CD21 /* OtherFakeTestLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA1FC60A1694F07F0037CD21;
+			remoteInfo = OtherFakeTestLibTests;
+		};
+		AA1FC6331694F3DF0037CD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1FC6271694F3AF0037CD21 /* OtherFakeTestLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AA1FC5F81694F07F0037CD21;
+			remoteInfo = OtherFakeTestLib;
+		};
 		AA5ACE4B165AD82B004A704E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AA5ACE02165AD82B004A704E /* Project object */;
@@ -67,6 +89,7 @@
 
 /* Begin PBXFileReference section */
 		AA1FC5C01694C7F40037CD21 /* TestFakeDummyLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TestFakeDummyLib.xcodeproj; path = TestFakeDummyLib/TestFakeDummyLib.xcodeproj; sourceTree = "<group>"; };
+		AA1FC6271694F3AF0037CD21 /* OtherFakeTestLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OtherFakeTestLib.xcodeproj; path = "../../External Libs/OtherFakeTestLib/OtherFakeTestLib.xcodeproj"; sourceTree = "<group>"; };
 		AA5ACE0B165AD82B004A704E /* TestProj2_DVCS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProj2_DVCS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5ACE0F165AD82B004A704E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA5ACE11165AD82B004A704E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -105,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1FC6351694F3E40037CD21 /* libOtherFakeTestLib.a in Frameworks */,
 				AA1FC5CC1694C9310037CD21 /* libTestFakeDummyLib.a in Frameworks */,
 				AA5ACE10165AD82B004A704E /* UIKit.framework in Frameworks */,
 				AA5ACE12165AD82B004A704E /* Foundation.framework in Frameworks */,
@@ -134,9 +158,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		AA1FC6281694F3AF0037CD21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FC6301694F3B00037CD21 /* libOtherFakeTestLib.a */,
+				AA1FC6321694F3B00037CD21 /* OtherFakeTestLibTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		AA5ACE00165AD82B004A704E = {
 			isa = PBXGroup;
 			children = (
+				AA1FC6271694F3AF0037CD21 /* OtherFakeTestLib.xcodeproj */,
 				AA1FC5C01694C7F40037CD21 /* TestFakeDummyLib.xcodeproj */,
 				AA5ACE15165AD82B004A704E /* TestProj2_DVCS */,
 				AA5ACE4D165AD82B004A704E /* TestProj2_DVCSTests */,
@@ -234,6 +268,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				AA1FC6341694F3DF0037CD21 /* PBXTargetDependency */,
 				AA1FC5CB1694C9230037CD21 /* PBXTargetDependency */,
 			);
 			name = TestProj2_DVCS;
@@ -282,6 +317,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = AA1FC6281694F3AF0037CD21 /* Products */;
+					ProjectRef = AA1FC6271694F3AF0037CD21 /* OtherFakeTestLib.xcodeproj */;
+				},
+				{
 					ProductGroup = AA1FC5C11694C7F40037CD21 /* Products */;
 					ProjectRef = AA1FC5C01694C7F40037CD21 /* TestFakeDummyLib.xcodeproj */;
 				},
@@ -307,6 +346,20 @@
 			fileType = wrapper.cfbundle;
 			path = TestFakeDummyLibTests.octest;
 			remoteRef = AA1FC5C71694C7F40037CD21 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AA1FC6301694F3B00037CD21 /* libOtherFakeTestLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOtherFakeTestLib.a;
+			remoteRef = AA1FC62F1694F3B00037CD21 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AA1FC6321694F3B00037CD21 /* OtherFakeTestLibTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OtherFakeTestLibTests.octest;
+			remoteRef = AA1FC6311694F3B00037CD21 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -384,6 +437,11 @@
 			isa = PBXTargetDependency;
 			name = TestFakeDummyLib;
 			targetProxy = AA1FC5CA1694C9230037CD21 /* PBXContainerItemProxy */;
+		};
+		AA1FC6341694F3DF0037CD21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OtherFakeTestLib;
+			targetProxy = AA1FC6331694F3DF0037CD21 /* PBXContainerItemProxy */;
 		};
 		AA5ACE4C165AD82B004A704E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
