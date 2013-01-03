@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1FC5991694C7F40037CD21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1FC5981694C7F40037CD21 /* Foundation.framework */; };
+		AA1FC59E1694C7F40037CD21 /* TestFakeDummyLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA1FC59D1694C7F40037CD21 /* TestFakeDummyLib.h */; };
+		AA1FC5A01694C7F40037CD21 /* TestFakeDummyLib.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FC59F1694C7F40037CD21 /* TestFakeDummyLib.m */; };
+		AA1FC5A81694C7F40037CD21 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1FC5A71694C7F40037CD21 /* SenTestingKit.framework */; };
+		AA1FC5AA1694C7F40037CD21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1FC5A91694C7F40037CD21 /* UIKit.framework */; };
+		AA1FC5AB1694C7F40037CD21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1FC5981694C7F40037CD21 /* Foundation.framework */; };
+		AA1FC5AE1694C7F40037CD21 /* libTestFakeDummyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1FC5951694C7F40037CD21 /* libTestFakeDummyLib.a */; };
+		AA1FC5B41694C7F40037CD21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA1FC5B21694C7F40037CD21 /* InfoPlist.strings */; };
+		AA1FC5B71694C7F40037CD21 /* TestFakeDummyLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FC5B61694C7F40037CD21 /* TestFakeDummyLibTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA1FC5AC1694C7F40037CD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1FC58C1694C7F30037CD21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA1FC5941694C7F40037CD21;
+			remoteInfo = TestFakeDummyLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA1FC5931694C7F40037CD21 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				AA1FC59E1694C7F40037CD21 /* TestFakeDummyLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA1FC5951694C7F40037CD21 /* libTestFakeDummyLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestFakeDummyLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1FC5981694C7F40037CD21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA1FC59C1694C7F40037CD21 /* TestFakeDummyLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestFakeDummyLib-Prefix.pch"; sourceTree = "<group>"; };
+		AA1FC59D1694C7F40037CD21 /* TestFakeDummyLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFakeDummyLib.h; sourceTree = "<group>"; };
+		AA1FC59F1694C7F40037CD21 /* TestFakeDummyLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFakeDummyLib.m; sourceTree = "<group>"; };
+		AA1FC5A61694C7F40037CD21 /* TestFakeDummyLibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFakeDummyLibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1FC5A71694C7F40037CD21 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AA1FC5A91694C7F40037CD21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AA1FC5B11694C7F40037CD21 /* TestFakeDummyLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestFakeDummyLibTests-Info.plist"; sourceTree = "<group>"; };
+		AA1FC5B31694C7F40037CD21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA1FC5B51694C7F40037CD21 /* TestFakeDummyLibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFakeDummyLibTests.h; sourceTree = "<group>"; };
+		AA1FC5B61694C7F40037CD21 /* TestFakeDummyLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFakeDummyLibTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1FC5921694C7F40037CD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1FC5991694C7F40037CD21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1FC5A21694C7F40037CD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1FC5A81694C7F40037CD21 /* SenTestingKit.framework in Frameworks */,
+				AA1FC5AA1694C7F40037CD21 /* UIKit.framework in Frameworks */,
+				AA1FC5AB1694C7F40037CD21 /* Foundation.framework in Frameworks */,
+				AA1FC5AE1694C7F40037CD21 /* libTestFakeDummyLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1FC58A1694C7F30037CD21 = {
+			isa = PBXGroup;
+			children = (
+				AA1FC59A1694C7F40037CD21 /* TestFakeDummyLib */,
+				AA1FC5AF1694C7F40037CD21 /* TestFakeDummyLibTests */,
+				AA1FC5971694C7F40037CD21 /* Frameworks */,
+				AA1FC5961694C7F40037CD21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1FC5961694C7F40037CD21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FC5951694C7F40037CD21 /* libTestFakeDummyLib.a */,
+				AA1FC5A61694C7F40037CD21 /* TestFakeDummyLibTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1FC5971694C7F40037CD21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FC5981694C7F40037CD21 /* Foundation.framework */,
+				AA1FC5A71694C7F40037CD21 /* SenTestingKit.framework */,
+				AA1FC5A91694C7F40037CD21 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA1FC59A1694C7F40037CD21 /* TestFakeDummyLib */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FC59D1694C7F40037CD21 /* TestFakeDummyLib.h */,
+				AA1FC59F1694C7F40037CD21 /* TestFakeDummyLib.m */,
+				AA1FC59B1694C7F40037CD21 /* Supporting Files */,
+			);
+			path = TestFakeDummyLib;
+			sourceTree = "<group>";
+		};
+		AA1FC59B1694C7F40037CD21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FC59C1694C7F40037CD21 /* TestFakeDummyLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA1FC5AF1694C7F40037CD21 /* TestFakeDummyLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FC5B51694C7F40037CD21 /* TestFakeDummyLibTests.h */,
+				AA1FC5B61694C7F40037CD21 /* TestFakeDummyLibTests.m */,
+				AA1FC5B01694C7F40037CD21 /* Supporting Files */,
+			);
+			path = TestFakeDummyLibTests;
+			sourceTree = "<group>";
+		};
+		AA1FC5B01694C7F40037CD21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA1FC5B11694C7F40037CD21 /* TestFakeDummyLibTests-Info.plist */,
+				AA1FC5B21694C7F40037CD21 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1FC5941694C7F40037CD21 /* TestFakeDummyLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1FC5BA1694C7F40037CD21 /* Build configuration list for PBXNativeTarget "TestFakeDummyLib" */;
+			buildPhases = (
+				AA1FC5911694C7F40037CD21 /* Sources */,
+				AA1FC5921694C7F40037CD21 /* Frameworks */,
+				AA1FC5931694C7F40037CD21 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestFakeDummyLib;
+			productName = TestFakeDummyLib;
+			productReference = AA1FC5951694C7F40037CD21 /* libTestFakeDummyLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA1FC5A51694C7F40037CD21 /* TestFakeDummyLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1FC5BD1694C7F40037CD21 /* Build configuration list for PBXNativeTarget "TestFakeDummyLibTests" */;
+			buildPhases = (
+				AA1FC5A11694C7F40037CD21 /* Sources */,
+				AA1FC5A21694C7F40037CD21 /* Frameworks */,
+				AA1FC5A31694C7F40037CD21 /* Resources */,
+				AA1FC5A41694C7F40037CD21 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA1FC5AD1694C7F40037CD21 /* PBXTargetDependency */,
+			);
+			name = TestFakeDummyLibTests;
+			productName = TestFakeDummyLibTests;
+			productReference = AA1FC5A61694C7F40037CD21 /* TestFakeDummyLibTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1FC58C1694C7F30037CD21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Glympse;
+			};
+			buildConfigurationList = AA1FC58F1694C7F30037CD21 /* Build configuration list for PBXProject "TestFakeDummyLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA1FC58A1694C7F30037CD21;
+			productRefGroup = AA1FC5961694C7F40037CD21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1FC5941694C7F40037CD21 /* TestFakeDummyLib */,
+				AA1FC5A51694C7F40037CD21 /* TestFakeDummyLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1FC5A31694C7F40037CD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1FC5B41694C7F40037CD21 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA1FC5A41694C7F40037CD21 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1FC5911694C7F40037CD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1FC5A01694C7F40037CD21 /* TestFakeDummyLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1FC5A11694C7F40037CD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1FC5B71694C7F40037CD21 /* TestFakeDummyLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA1FC5AD1694C7F40037CD21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA1FC5941694C7F40037CD21 /* TestFakeDummyLib */;
+			targetProxy = AA1FC5AC1694C7F40037CD21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA1FC5B21694C7F40037CD21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1FC5B31694C7F40037CD21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA1FC5B81694C7F40037CD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA1FC5B91694C7F40037CD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA1FC5BB1694C7F40037CD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TestFakeDummyLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestFakeDummyLib/TestFakeDummyLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA1FC5BC1694C7F40037CD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TestFakeDummyLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestFakeDummyLib/TestFakeDummyLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA1FC5BE1694C7F40037CD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestFakeDummyLib/TestFakeDummyLib-Prefix.pch";
+				INFOPLIST_FILE = "TestFakeDummyLibTests/TestFakeDummyLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AA1FC5BF1694C7F40037CD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestFakeDummyLib/TestFakeDummyLib-Prefix.pch";
+				INFOPLIST_FILE = "TestFakeDummyLibTests/TestFakeDummyLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1FC58F1694C7F30037CD21 /* Build configuration list for PBXProject "TestFakeDummyLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1FC5B81694C7F40037CD21 /* Debug */,
+				AA1FC5B91694C7F40037CD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1FC5BA1694C7F40037CD21 /* Build configuration list for PBXNativeTarget "TestFakeDummyLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1FC5BB1694C7F40037CD21 /* Debug */,
+				AA1FC5BC1694C7F40037CD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA1FC5BD1694C7F40037CD21 /* Build configuration list for PBXNativeTarget "TestFakeDummyLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1FC5BE1694C7F40037CD21 /* Debug */,
+				AA1FC5BF1694C7F40037CD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1FC58C1694C7F30037CD21 /* Project object */;
+}
