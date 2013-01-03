@@ -1,0 +1,3 @@
+[submodule "External/DummyLib"]
+	path = External/DummyLib
+	url = https://github.com/glyethan/TestFakeDummyLib.git
