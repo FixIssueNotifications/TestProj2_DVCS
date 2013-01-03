@@ -22,6 +22,9 @@
         self.title = NSLocalizedString(@"Second", @"OSXSecond");
         self.tabBarItem.image = [UIImage imageNamed:@"second"];
     }
+    //OMG HUGE CHANGES FROM OSX!!!
+    //
+    //....
     return self;
 }
 							
