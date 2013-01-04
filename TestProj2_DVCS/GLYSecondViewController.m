@@ -30,6 +30,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     OtherFakeTestLib *libInstance = [[OtherFakeTestLib alloc] init];
+    self.lblOtherDependent.text = nil; //lets pretend this fixes a huge bug
     self.lblOtherDependent.text = [libInstance getOtherStringFromDependency];
 }
 
