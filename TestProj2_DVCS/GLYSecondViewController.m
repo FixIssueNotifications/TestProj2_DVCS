@@ -19,12 +19,9 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Second", @"OSXSecond");
+        self.title = NSLocalizedString(@"Second", @"Second");
         self.tabBarItem.image = [UIImage imageNamed:@"second"];
     }
-    //OMG HUGE CHANGES FROM OSX!!!
-    //
-    //....
     return self;
 }
 							
