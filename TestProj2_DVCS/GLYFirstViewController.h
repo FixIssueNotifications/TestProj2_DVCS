@@ -10,5 +10,6 @@
 
 @interface GLYFirstViewController : UIViewController
 @property (retain, nonatomic) IBOutlet UILabel *lblLateLoad;
-
+@property (nonatomic, assign) BOOL devProperty;
+@property (nonatomic, assign) BOOL devPropertyAnother;
 @end
