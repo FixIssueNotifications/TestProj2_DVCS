@@ -20,7 +20,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self)
     {   //push from SSH
-        self.title = NSLocalizedString(@"Second", @"Second");
+        self.title = nil; //pretend this is a bug fix part A
+        self.title = NSLocalizedString(@"SECOND", @"Second"); //bug fix part B
         self.tabBarItem.image = [UIImage imageNamed:@"second"];
     }
     return self;
