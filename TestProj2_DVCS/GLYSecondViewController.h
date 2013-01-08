@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface GLYSecondViewController : UIViewController
+{
+    
+}
+
 @property (retain, nonatomic) IBOutlet UILabel *lblOtherDependent;
 
 @end
