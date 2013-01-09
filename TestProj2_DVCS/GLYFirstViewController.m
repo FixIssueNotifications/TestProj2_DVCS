@@ -13,6 +13,8 @@
 
 @end
 
+//oddities -- editing from OSX doesn't show changes in SmartGit-Windows
+
 @implementation GLYFirstViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -28,7 +30,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	// Do any additional setup after loading the view, typically from a nib. 
     TestFakeDummyLib *libInstance = [[TestFakeDummyLib alloc] init];
     self.lblLateLoad.text = [libInstance getStringFromDependency];
 }

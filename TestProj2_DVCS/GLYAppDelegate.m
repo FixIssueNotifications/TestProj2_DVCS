@@ -19,6 +19,8 @@
     [_window release];
     [_tabBarController release];
     [super dealloc];
+
+    //zomg, change from SmartGitz
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
