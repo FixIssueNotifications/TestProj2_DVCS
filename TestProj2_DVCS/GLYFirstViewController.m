@@ -20,7 +20,8 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
+    if (self)
+    {   NSLog("Goat !");
         self.title = NSLocalizedString(@"First!", @"Firstzzz");
         self.tabBarItem.image = [UIImage imageNamed:@"first"];
     }
