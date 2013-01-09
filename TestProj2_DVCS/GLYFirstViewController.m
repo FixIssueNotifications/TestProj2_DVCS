@@ -21,6 +21,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        NSLog("conflictations!! :D");
         self.title = NSLocalizedString(@"First!", @"Firstzzz");
         self.tabBarItem.image = [UIImage imageNamed:@"first"];
     }
