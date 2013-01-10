@@ -24,7 +24,7 @@
     {   NSLog("Goat !");
         NSLog("conflictations!! :D");
         self.title = NSLocalizedString(@"First!", @"Firstzzz");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        self.tabBarItem.image = [UIImage imageNamed:@"firstness"];
     }
     return self;
 }
