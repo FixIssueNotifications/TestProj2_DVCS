@@ -26,7 +26,7 @@
         
         NSLog("Automergable changes?");
         self.title = NSLocalizedString(@"First!", @"Firstzzz");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        self.tabBarItem.image = [UIImage imageNamed:@"firstness"]; //two
     }
     return self;
 }
