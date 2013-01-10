@@ -23,6 +23,8 @@
     if (self)
     {   NSLog("Goat !");
         NSLog("conflictations!! :D");
+        
+        NSLog("Automergable changes?");
         self.title = NSLocalizedString(@"First!", @"Firstzzz");
         self.tabBarItem.image = [UIImage imageNamed:@"firstness"];
     }
