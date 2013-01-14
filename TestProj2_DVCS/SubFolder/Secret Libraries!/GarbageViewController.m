@@ -8,11 +8,11 @@
 
 #import "GarbageViewController.h"
 
-@interface GarbageViewController ()
+@interface GarbageVC ()
 
 @end
 
-@implementation GarbageViewController
+@implementation GarbageVC
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
