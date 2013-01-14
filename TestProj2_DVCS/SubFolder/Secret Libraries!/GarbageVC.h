@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GarbageViewController : UIViewController
+@interface GarbageVC : UIViewController
 
 @end
