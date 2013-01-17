@@ -25,6 +25,7 @@
         NSLog("Automergable changes?");
         
         NSLog("Editing from original, pre-rebase");
+        //and this is post rebase
         self.title = NSLocalizedString(@"First!", @"Firstzzz");
         self.tabBarItem.image = [UIImage imageNamed:@"firstness"]; //two
     }
