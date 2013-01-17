@@ -13,8 +13,6 @@
 
 @end
 
-//oddities -- editing from OSX doesn't show changes in SmartGit-Windows
-
 @implementation GLYFirstViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -25,6 +23,8 @@
         NSLog("conflictations!! :D");
         
         NSLog("Automergable changes?");
+        
+        NSLog("Editing from original, pre-rebase");
         self.title = NSLocalizedString(@"First!", @"Firstzzz");
         self.tabBarItem.image = [UIImage imageNamed:@"firstness"]; //two
     }
